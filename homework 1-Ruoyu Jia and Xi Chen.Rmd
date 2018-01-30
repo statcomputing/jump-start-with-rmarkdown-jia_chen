@@ -6,8 +6,8 @@ documentclass: article
 papersize: letter
 fontsize: 11pt
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 abstract:
     Following the project template at the Data Science Lab we produce this document for the following toy problem by using Monte Carlo methods.
 ---
