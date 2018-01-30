@@ -40,7 +40,7 @@ $$
 
 # 2 Table 
 As $X_i~'$s is iid $N(0,1)$ variables, we make experiment with the approximation at $n\in\{10^2,10^3,10^4\}$ at $t\in\{0.0,0.67,0.84,1.28,1.65,2.32,2.58,3.09,3.72\}$ to form a table, which also includes the true value in order to be compared with.
-```{r echo=TRUE}
+```{r echo=FALSE}
 x <- c(0.0,0.67,0.84,1.28,1.65,2.32,2.58,3.09,3.72)
 y <- pnorm(x, mean = 0, sd=1)
 n <- c(100,1000,10000)
