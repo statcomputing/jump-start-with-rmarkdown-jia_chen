@@ -9,7 +9,7 @@ output:
   html_document: default
   pdf_document: default
 abstract:
-    Following the project template at the Data Science Lab we produce this document for the following toy problem.
+    Following the project template at the Data Science Lab we produce this document for the following toy problem by using Monte Carlo methods.
 ---
 
 ```{r setup, include=FALSE}
